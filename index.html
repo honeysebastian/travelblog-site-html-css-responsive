@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel BLog</title>
+  <link rel="icon" href="..." type="image/gif" sizes="16x16">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- image -->
+    <div class="row mb-4 justify-content-center">
+      <div class="col-4"></div>
+      <div class="col-sm-4 col-md-4">
+        <img src="./images/adventurouskate-logo.svg" alt="">
+      </div>
+      <div class="col-4"></div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-size: 1.5rem; font-family: 'Protest Riot', sans-serif; ">&reg;Kate
+          Peter</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0"
+            style="font-size: 1.5rem;font-family: 'Protest Riot', sans-serif; color: black;">
+            <li class="nav-item me-3">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#tips">Travel Tips</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#destinations">Destinations</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#foot">Contact</a>
+            </li>
+          </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- home -->
+    <div id="home">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+        class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 1.5rem; font-family: 'Protest Riot', sans-serif; ">Adventurous Travel</h5>
+              <p style="font-size: 1rem; font-family: 'Protest Riot', sans-serif; ">“The world is a book and those who do not travel read only one page.”
+                ― St. Augustine</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 1.5rem; font-family: 'Protest Riot', sans-serif; ">Adventurous Travel</h5>
+              <p style="font-size: 1rem; font-family: 'Protest Riot', sans-serif; ">“The journey of a thousand miles begins with a single step.”
+                ― Lao Tzu</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/banner3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 1.5rem; font-family: 'Protest Riot', sans-serif; ">Adventurous Travel</h5>
+              <p style="font-size: 1rem; font-family: 'Protest Riot', sans-serif; ">“Wherever you go becomes a part of you somehow.”
+                ― Anita Desai</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-12  ms-5 me-5 ms-md-5 pt-5">
+                <img class="img-fluid w-75 w-md-50 mt-5 justify-content-center" src="./images/person1.jpg" alt="">
+              </div>
+            </div>         
+          </div>
+          <div class="col-lg-8 mb-5">
+            <h1 class="mt-5" style="font-size: 4rem; font-family: 'Satisfy', cursive; font-weight: 800; text-align: center;">About Me</h1>
+            <h1 style="text-align: center;">Kate Peter</h1>
+            <p class="mt-4 fs-5" style="color: gray;">When I first left home with a one-way ticket to the other side of the world, I didn’t have a clue what I was
+              doing (or even, really, where I was going). But that was the point. I didn’t want to know. All I knew was that
+              there was so much I didn’t know, and I set out on a quest to broaden my perspective as well as my comfort
+              zone.
+              <br><br>
+    
+              And I did. Experiencing the world changed me, and in recognizing that travel is a powerful platform for
+              personal growth, I made it my personal mission to help others—people like you—recognize just how accessible
+              travel really is. That’s why I started this adventure travel blog.
+              <br><br>
+    
+              Even if you’re lacking time or money, there are countless ways to embark on an adventure of your own. And I’m
+              here to guide you through it.
+            </p>
+          </div>       
+        </div>
+      </div>
+    </div>
+    <!-- Travel tips -->
+    <div id="tips" class="bg-body-tertiary">
+      <h1 class="mt-5 mb-5 pt-4" style="font-size: 4rem; font-family: 'Satisfy', cursive; font-weight: 800; text-align: center;">Start Your Adventure</h1>
+  
+      <div class="container d-lg-flex justify-content-evenly">
+        <div class="row justify-content-center">
+          <div class="card p-3 mb-5" style="width: 18rem;">
+            <img src="./images/p1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kerala Honeymoon Packages</h5>
+                <h5 class="text-danger">(04 Nights/05 days)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+        </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="card mb-3 border-0" style="max-width: 18rem;">
+            <img src="./images/s2.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title bolder fs-4">The Best Travel Gear and Accessories of 2024</h5>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="card mb-3 border-0" style="max-width: 18rem;">
+            <img src="./images/s3.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title bolder fs-4">65 Best Travel Tips I’ve Learned After 10 Years of Traveling</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="container d-lg-flex justify-content-evenly">
+        <div class="row justify-content-center">
+          <div class="card p-3 mb-5" style="width: 18rem;">
+            <img src="./images/p1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kerala Honeymoon Packages</h5>
+                <h5 class="text-danger">(04 Nights/05 days)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+        </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="card p-3 mb-5" style="width: 18rem;">
+            <img src="./images/p1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kerala Honeymoon Packages</h5>
+                <h5 class="text-danger">(04 Nights/05 days)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+        </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="card p-3 mb-5" style="width: 18rem;">
+            <img src="./images/p1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kerala Honeymoon Packages</h5>
+                <h5 class="text-danger">(04 Nights/05 days)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--destinations -->
+    <div id="destinations">
+      <h1 class="mt-5 mb-5 pt-4" style="font-size: 4rem; font-family: 'Satisfy', cursive; font-weight: 800; text-align: center;">Top Destinations</h1>
+
+      <div class="container d-lg-flex justify-content-evenly">
+
+        <div class="row justify-content-center">
+          <div class="card mb-3 border-0" style="max-width: 22rem; ">
+            <img src="./images/Paris-Louvre-1.webp" class="card-img-top" alt="...">
+            <div style="position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* Set text color */
+            font-size: 3rem; /* Set text font size */
+            text-align: center;">
+              PARIS
+          </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card mb-3 border-0" style="max-width: 22rem; ">
+            <img src="./images/italy.jpg" class="card-img-top" alt="...">
+            <div style="position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* Set text color */
+            font-size: 3rem; /* Set text font size */
+            text-align: center;">
+             ITALY
+          </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card mb-3 border-0" style="max-width: 22rem;">
+            <img src="./images/New-York-1.jpg" class="card-img-top" alt="...">
+            <div style="position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* Set text color */
+            font-size: 3rem; /* Set text font size */
+            text-align: center;">
+              NEWYORK
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container d-lg-flex justify-content-evenly">
+
+        <div class="row justify-content-center">
+          <div class="card mb-3 border-0" style="max-width: 22rem; ">
+            <img src="./images/Beach getways.jpg" class="card-img-top" alt="...">
+            <div style="position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* Set text color */
+            font-size: 3rem; /* Set text font size */
+            text-align: center;">
+              BEACH GETWAYS
+          </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card mb-3 border-0" style="max-width: 22rem; ">
+            <img src="./images/city_breaks.jpg" class="card-img-top" alt="...">
+            <div style="position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* Set text color */
+            font-size: 3rem; /* Set text font size */
+            text-align: center;">
+             CITY BREAKS
+          </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="card mb-3 border-0" style="max-width: 22rem;">
+            <img src="./images/off_the_beaten_path.jpg" class="card-img-top" alt="...">
+            <div style="position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* Set text color */
+            font-size: 3rem; /* Set text font size */
+            text-align: center;">
+              OFF THE BEATEN PATH
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="foot" style="background-color: rgb(80, 78, 78);">
+      <div class="container">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4 justify-content-center">
+            <h2 style="color: white; text-align: center;">Connect With Us</h2>
+          <address style="color: white; text-align: center;">4030 Wake Forest Road, STE 349
+            Raleigh, NC, 27609, USA
+          </address>
+          <div class="links" style="color: white; text-align: center;">
+            <a><i class="fa-brands fa-facebook"></i> </a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-twitter"></i></a>
+            <a><i class="fa-brands fa-pinterest"></i></a>
+            <a><i class="fa-solid fa-envelope"></i></a>
+          </div>
+
+          </div>
+          <div class="col-4"></div>
+        </div>
+          
+          
+        </div>
+    </div>
+
+    </div>
+  </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
